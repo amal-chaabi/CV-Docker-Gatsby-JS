@@ -3,9 +3,9 @@ module.exports = {
     siteDescription: `Create your online curriculum in just a few minutes with this starter`,
     keyWords: ['gatsbyjs', 'react', 'curriculum'],
     authorName: 'Amal Chaabi',
-    twitterUsername: 'Amal_Chaabi',
-    githubUsername: 'amal-chaabi',
-    authorAvatar: '', //put your picture
+    twitterUsername: '',
+    githubUsername: '',
+    authorAvatar: '', //put your picture link
     authorDescription: `Software Engineer Student, passionate about what I do. <br />`,
      skills: [
       {
