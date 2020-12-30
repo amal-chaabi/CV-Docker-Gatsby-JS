@@ -1,0 +1,7 @@
+FROM node:12 
+WORKDIR /user/src/application
+RUN npm install -g gatsby-cli
+RUN gatsby new mycontainer https://github.com/santosfrancisco/gatsby-starter-cv
+WORKDIR /user/src/application/mycontainer
+EXPOSE 8000
+CMD ["gatsby", "develop", "-H","0.0.0.0"]
