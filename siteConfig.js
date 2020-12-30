@@ -5,7 +5,7 @@ module.exports = {
     authorName: 'Amal Chaabi',
     twitterUsername: 'Amal_Chaabi',
     githubUsername: 'amal-chaabi',
-    authorAvatar: 'https://scontent.ftun11-1.fna.fbcdn.net/v/t1.0-9/126337658_2849966525326335_3021456415213009119_n.jpg?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_ohc=fE6un7IVXD4AX8agLbT&_nc_ht=scontent.ftun11-1.fna&oh=c1fc51e6dad41f7de8dba00569f17b2a&oe=600BC6E3',
+    authorAvatar: '', //put your picture
     authorDescription: `Software Engineer Student, passionate about what I do. <br />`,
      skills: [
       {
@@ -53,51 +53,22 @@ module.exports = {
     jobs: [
       /* more jobs here */
       {
-        company: "Waycon",
+        company: "",
         begin: {
-          month: 'feb',
-          year: '2017'
+          month: '',
+          year: ''
         },
-        duration: '4 mos',
-        occupation: "Full stack developer",
-        description: "Development of a hybrid web and mobile application for managing quotes and online orders for WAYCON, as well as managing material and human resources.The Agile methodology used is Scrum.J2EE framework."
+        duration: '',
+        occupation: "",
+        description: ""
   
-      },  {
-        company: "ALECSO",
-        begin: {
-          month: 'mar',
-          year: '2016'
-        },
-        duration: '9 mos',
-        occupation: "Mobile developer",
-        description: "First National Prize in the development of mobile applications Development of a hybrid Android application using CORDOVA.Available on the ALECSO platform entitled الأعشاب الhttp://www.alecsoapps.net/store/index.php?option=com_mtree&task=viewlink&link_id=723&Itemid=637"
-    
-      }, {
-        company: "Tunisie Telecom",
-        begin: {
-          month: 'jan',
-          year: '2016'
-        },
-        duration: '1 mos',
-        occupation: "Back end developer",
-        description: "Development of a student management application with C #"
-      }, {
-        company: "BNA",
-        begin: {
-          month: 'jan',
-          year: '2015'
-        },
-        duration: '1 mos',
-        occupation: "Support Technician",
-        description: " Introduction to business.."
-    
-      },
+      }, 
     ],
     social: {
-      twitter: "https://twitter.com/Amal_Chaabi",
-      linkedin: "https://www.linkedin.com/in/amalchaabi-381412134",
-      github: "https://github.com/amal-chaabi",
-      email: "amal.chaabi.2015@gmail.com"
+      twitter: "",
+      linkedin: "",
+      github: "",
+      email: ""
     },
     siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
     pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
